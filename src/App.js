@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Alert, Breadcrumb, Card } from 'react-bootstrap';
 
 
 function App() {
@@ -13,10 +13,15 @@ function App() {
             <Card.Img style={{ width: "400px"}} variant="top" src="/img/the-truth.jpg"/>
             <Card.Title>Card Title</Card.Title>
             <Card.Text>Card text...</Card.Text>
-
             <Button variant="primary">This is a button</Button>
           </Card.Body>
         </Card>
+        <Breadcrumb>
+          <Breadcrumb.Item>Test 1</Breadcrumb.Item>
+          <Breadcrumb.Item>Test 2</Breadcrumb.Item>
+          <Breadcrumb.Item active>Test 3</Breadcrumb.Item>
+        </Breadcrumb>
+        <Alert variant="success">This is an Alert</Alert>
         <Button variant="secondary">This is a button</Button>
       </header>
     </div>
