@@ -8,12 +8,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Card>
+        <Card className="mb-3" style={{ color: "#000"}}>
           <Card.Body>
-            <Card.Img style={{ width: "400px"}} variant="top" src="/img/the-truth.jpg"/>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>Card text...</Card.Text>
-            <Button variant="primary">This is a button</Button>
+            <Card.Img className="mb-3" style={{ width: "400px"}} variant="top" src="/img/the-truth.jpg"/>
+            <Card.Title>
+              Card Title
+            </Card.Title>
+            <Card.Text>
+              Card text...
+            </Card.Text>
+            <Button variant="primary">Read More</Button>
           </Card.Body>
         </Card>
         <Breadcrumb>
