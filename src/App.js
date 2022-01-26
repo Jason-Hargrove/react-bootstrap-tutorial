@@ -3,6 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Button, Alert, Breadcrumb, Card } from 'react-bootstrap';
 
+import { Layout } from "./components/Layout"
+
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
         <Alert variant="success">This is an Alert</Alert>
         <Button variant="secondary">This is a button</Button>
       </header>
+      <Layout />
     </div>
   );
 }
