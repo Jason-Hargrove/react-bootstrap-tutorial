@@ -3,8 +3,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Button, Alert, Breadcrumb, Card } from 'react-bootstrap';
 
-import { Layout } from "./components/Layout"
+import { Layout } from "./components/Layout";
 import { Layout2 } from "./components/Layout2";
+import { MyModal } from "./components/Modal";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       </header>
       <Layout />
       <Layout2 />
+      <MyModal />
     </div>
   );
 }
