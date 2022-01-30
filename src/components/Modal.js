@@ -1,5 +1,8 @@
 import { Button, Alert } from "react-bootstrap";
+
 const title = "I'm a Model";
+
+const aboutText = "Text goes here..."
 
 export function MyModal() {
   const alerts = [
@@ -21,6 +24,7 @@ export function MyModal() {
     <>
       <Button>{title}</Button>
       {alerts}
+      <p>{aboutText}</p>
     </>
   );
 }
